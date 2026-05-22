@@ -184,65 +184,6 @@ GET /api/v1/destinations?city=Baku&category=food&lang=EN
 GET /api/v1/arrival-guide?city=Baku&lang=EN
 ```
 
----
-
-## 🧩 Project Structure
-
-```
-travely/
-│
-├── frontend/
-│   ├── components/
-│   ├── pages/
-│   ├── layout/
-│   │   ├── Sidebar.jsx
-│   │   ├── TopNavbar.jsx
-│   ├── modules/
-│   │   ├── Planner/
-│   │   ├── ArrivalHub/
-│   │   ├── Hotels/
-│   │   ├── FoodCulture/
-│   │   ├── ChatAI/
-│   └── App.jsx
-│
-├── backend/
-│   ├── main.py
-│   ├── routes/
-│   ├── services/
-│   ├── models/
-│   └── data/
-│
-└── README.md
-```
-
-
-## ⚙️ Installation
-
-### 1. Clone Repo
-
-```bash
-git clone https://github.com/yourusername/travely.git
-cd travely
-```
-
-### 2. Backend Setup
-
-```bash
-cd backend
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-
-uvicorn main:app --reload
-```
-
-### 3. Frontend Setup
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
 
 ## 🎨 UI/UX Principles
 
