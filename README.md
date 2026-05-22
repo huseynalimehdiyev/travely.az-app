@@ -1,11 +1,5 @@
 # 🇦🇿 Travely — Azerbaijan Travel Assistant (SaaS)
 Travely is a modern, AI-powered travel platform designed to help tourists explore Azerbaijan with ease. Built as a full-stack SaaS application, it provides intelligent trip planning, real-time arrival guidance, curated destinations, and a conversational travel assistant.
-Here’s a clean, production-ready **README.md** tailored for your upgraded **Travely – Azerbaijan Travel Assistant SaaS**:
-
-# 🇦🇿 Travely — Azerbaijan Travel Assistant (SaaS)
-
-Travely is a modern, AI-powered travel platform designed to help tourists explore Azerbaijan with ease. Built as a full-stack SaaS application, it provides intelligent trip planning, real-time arrival guidance, curated destinations, and a conversational travel assistant.
-
 
 ## ✨ Features
 
