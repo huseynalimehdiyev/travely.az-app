@@ -1,210 +1,83 @@
-# 🇦🇿 Travely — Azerbaijan Travel Assistant (SaaS)
-Travely is a modern, AI-powered travel platform designed to help tourists explore Azerbaijan with ease. Built as a full-stack SaaS application, it provides intelligent trip planning, real-time arrival guidance, curated destinations, and a conversational travel assistant.
+# 🗺️ Travely – Azerbaijan Travel Assistant (MVP)
 
-## ✨ Features
+Welcome to *Travely*, an advanced, AI-powered travel assistant meticulously designed for tourists visiting Azerbaijan. Operating as an elite, high-tier digital concierge, Travely transforms how global travelers plan trips, discover authentic culinary gems, navigate transit systems, and experience local culture across Azerbaijan's historical regions.
 
-### 🧭 Modular Dashboard (Modern UX)
-
-* Collapsible **Sidebar Navigation**
-* Clean separation of features into focused modules:
-
-  * 🗺️ Travel Planner (AI itinerary generator)
-  * 🛬 I Just Landed (Arrival + transport hub)
-  * 🏨 Accommodations & Shopping
-  * 🍽️ Gastronomy & Culture
-  * 💬 Ask Travel AI (chat interface)
-
-### 🌍 Global Controls
-
-* 🌐 Multi-language support: **EN / RU / TR / AR**
-* 📍 Dynamic city switching:
-
-  * Baku, Gabala, Ismayilli, Sheki, Guba, Lankaran
-* Instant UI updates based on city & language
-
-
-## 🚀 Core Modules
-
-### 🗺️ Travel Planner
-
-* AI-generated multi-day itineraries
-* Inputs:
-
-  * City
-  * Days
-  * Budget
-  * Interests
-* Output: structured JSON mapped to UI cards
-
-
-### 🛬 I Just Landed (Arrival Hub)
-
-* Step-by-step arrival guidance
-* Real transport pricing (⚠️ Updated):
-
-  * **Metro/Bus fare: 0.60 AZN**
-* Includes:
-
-  * Aero Express route (GYD → 28 May)
-  * Taxi pricing insights
-  * BakuKart usage guide
-
-#### 🔗 Official Transit Tools
-
-* Metro Map & Schedule
-  [http://baku-metro.gov.az/](http://baku-metro.gov.az/)
-* Digital Transport Platform (AYNA)
-* Google Maps live navigation
-
-
-### 🏨 Accommodations & Shopping
-
-* Hotels categorized:
-
-  * Luxury
-  * Mid-range
-  * Budget / Hostels
-* Shopping:
-
-  * Modern malls (Deniz Mall, Port Baku)
-  * Traditional bazaars (Taza, Yasil)
-  * Souvenir hubs (Icherisheher)
-
-
-### 🍽️ Gastronomy & Culture
-
-* Restaurants
-* Local cuisine
-* Museums & heritage sites
-
-
-### 💬 Ask Travel AI
-
-* Fullscreen conversational assistant
-* Context-aware (city + language)
-* Concierge-level responses
-
-
-## 🧠 AI Behavior (System Design)
-
-The AI acts as:
-
-> **Elite Local Concierge of Azerbaijan**
-
-### Rules:
-
-* Always uses selected language (no mixing)
-* Uses accurate transport pricing (**0.60 AZN**)
-* Recommends BakuKart usage:
-
-  * Available at airport & metro stations
-* Returns structured JSON for itineraries:
-
-```json
-[
-  {
-    "day": 1,
-    "time": "09:00",
-    "title": "Visit Old City",
-    "cost": "Free",
-    "location": "Icherisheher",
-    "description": "Explore historic streets and landmarks"
-  }
-]
-```
+This repository hosts the full production-ready MVP code, featuring a state-of-the-art modular dashboard architecture, live contextual AI chat integration, and precise up-to-date transit structures.
 
 ---
 
-## 🏗️ Tech Stack
+## 🎯 Project Vision & Core Strategy
+Travely bridges the gap between chaotic general search engine results and expensive personal tour guides. Operating with a hyper-localized intelligence matrix, it serves real-time data tuned dynamically to the visitor's selected language, target Azerbaijani city, budget range, and precise interest clusters.
 
-### Frontend
+### Key Targets:
+* *Hyper-Localized AI Concierge:* Behaves like an elite local guide, offering realistic advice, optimal travel windows, and authenticated hidden gems.
+* *Up-to-Date Transit Integrity:* Eliminates outdated regional cost metrics by implementing the verified *0.60 AZN* unified Baku metro and public bus transit fares.
+* *Intuitive UI/UX Overhaul:* Replaces complex single-page grid layouts with an asynchronous, state-driven left sidebar menu, perfect for mobile-first scanning and seamless state management.
 
-* React (Vite)
-* Tailwind CSS
-* Lucide React Icons
-* State: Context API / Zustand (recommended)
+---
 
-### Backend
+## 👥 Meet the Development Team
+Huseynali Mehdiyev
+Amin İsrafilov
+---
 
-* FastAPI (Python)
-* RESTful architecture
-* AI integration ready (OpenAI / local LLM)
+## 🌍 Core Modules & System Architecture
 
+### 1. 🗺️ Travel Planner Matrix
+* *Dynamic Intake:* Accepts destination adjustments (Baku, Gabala, Ismayilli, Sheki, Guba, Lankaran), duration matrix (days), budget brackets, and personal lifestyle profiles (Food, Nature, Culture, Nightlife).
+* *Structured Output Engine:* Generates real-time, day-by-day chronologically mapped itineraries formatted to fit precise UI components (Time, Cost, Activity, Exact Location, Description).
 
-## 📡 API Specification
+### 2. 🛬 "I Just Landed" & Transit Hub
+* *Arrival Vector Navigation:* Comprehensive guide detailing immediate exit steps from Heydar Aliyev International Airport (GYD) using the official Aero Express bus (to 28 May Station) or validated Baku Taxi tariffs.
+* *BakuKart Onboarding:* Instant onboarding steps instructions on sourcing, loading, and scanning RFID transit media at electronic access gates.
+* *Live Official Integration Links:*
+    * *Official Metro Map & Live Schedules* 🔗 [Baku Metropoliten Official Site](http://baku-metro.gov.az/)
+    * *Live Bus Tracking & Digital Transit* 🔗 [AYNA Portal (Rəqəmsal İnkişaf və Nəqliyyat Nazirliyi)](https://mincom.gov.az/)
+    * *Deep-Linked Navigation* 🔗 Integrated Google Maps transit routes directly focused on active coordinates.
 
-### 1. Plan Trip
+### 3. 🏨 Accommodations & Shopping Hub
+* *Tiered Stays Database:* Micro-filtered categories spanning Luxury stays (e.g., Fairmont Baku Flame Towers), Mid-range boutique hotels, and highly secure budget-friendly hostels.
+* *Commercial & Cultural Retail:* Showcases high-end contemporary retail centers (Deniz Mall, Port Baku Mall) alongside historical traditional bazaars (Yaşıl Bazar, Təzə Bazar) and artisan souvenir vendors in Icherisheher.
 
-```
-POST /api/v1/plan-trip
-```
+### 4. 🍽️ Gastronomy & Culture Vault
+* *Culinary Curations:* Dedicated profiles for iconic dishes (Plov/Shah Plov, Dolma, Qutab, Saj, Kebabs) tagged cleanly with price brackets, ingredient indicators, and certified halal statuses.
+* *Historical Landmarks:* Pre-populated, highly performant component lists showcasing top regional attractions (Heydar Aliyev Center, Gobustan, Palace of the Shaki Khans) operating instantly before external LLM queries respond.
 
-**Request:**
+### 5. 💬 Fullscreen Conversational Travel AI
+* *State-Aware Interaction:* Context-locked chat system utilizing active language models. If the user shifts the active global selector to Arabic and selects "Sheki", the engine limits processing scope exclusively to Sheki's historical context rendered in Arabic.
 
+---
+
+## 🎨 UI/UX Specifications
+* *Design Paradigm:* Dark deep slate navy background palette #0f172a juxtaposed cleanly with highly bright accent cards (#1e293b), custom rounded alert boundaries, desaturated tags, and sharp typography.
+* *Sidebar Framework:* Left-aligned, collapsible asynchronous sidebar control layer eliminating full-page refreshes.
+* *Responsive Scaling:* Strict flex/block liquid layout tailored perfectly for viewing on mobile browsers during walking tours or active navigation.
+
+---
+
+## ⚙️ Engineering Tech Stack
+
+### Frontend Architecture
+* *Framework:* React 18+ (Functional Components & Hooks)
+* *Styling Engine:* Tailwind CSS 3+ for ultra-fast utility styling
+* *Icons Framework:* lucide-react for responsive minimalist iconography
+
+### Backend Architecture
+* *Core Engine:* Python 3.10+ using *FastAPI* for high-throughput, low-latency performance
+* *AI Orchestration:* Google Gemini / OpenAI structural streaming integrations
+* *Data Models:* Pydantic validation structures ensuring reliable JSON parsing
+
+---
+
+## 🔌 API Blueprint & Endpoint Mapping
+
+### POST /api/v1/plan-trip
+Handles algorithmic generation of itineraries based on custom parameters.
 ```json
 {
   "city": "Baku",
   "days": 3,
-  "budget": "medium",
+  "budget": "Mid-range",
   "interests": ["culture", "food"],
-  "language": "EN"
+  "language": "en"
 }
-```
-
-### 2. AI Chat
-
-```
-POST /api/v1/chat
-```
-
-### 3. Destinations
-
-```
-GET /api/v1/destinations?city=Baku&category=food&lang=EN
-```
-
-**Categories:**
-
-* places
-* food
-* museums
-* hotels
-* shopping
-
-
-### 4. Arrival Guide
-
-```
-GET /api/v1/arrival-guide?city=Baku&lang=EN
-```
-
-
-## 🎨 UI/UX Principles
-
-* Minimalist, non-cluttered interface
-* Card-based design
-* Smooth transitions (no reloads)
-* Mobile-first responsive layout
-* Clear CTAs for navigation & actions
-
-
-## 🔒 Production Readiness
-
-* Modular architecture
-* Scalable API design
-* Clean separation of concerns
-* Ready for:
-
-  * Authentication (JWT)
-  * Payments (Stripe)
-  * Bookings integration
-
-
-## 📈 Future Improvements
-
-* Real-time transport APIs
-* Hotel booking integrations
-* Offline itinerary mode
-* AI voice assistant
-* Personalized recommendations
-
