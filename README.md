@@ -17,8 +17,10 @@ Travely bridges the gap between chaotic general search engine results and expens
 ---
 
 ## 👥 Meet the Development Team
-*Huseynali Mehdiyev,
-*Amin İsrafilov
+
+* Huseynali Mehdiyev,
+* Amin İsrafilov
+   
 ---
 
 ## 🌍 Core Modules & System Architecture
@@ -31,8 +33,8 @@ Travely bridges the gap between chaotic general search engine results and expens
 * *Arrival Vector Navigation:* Comprehensive guide detailing immediate exit steps from Heydar Aliyev International Airport (GYD) using the official Aero Express bus (to 28 May Station) or validated Baku Taxi tariffs.
 * *BakuKart Onboarding:* Instant onboarding steps instructions on sourcing, loading, and scanning RFID transit media at electronic access gates.
 * *Live Official Integration Links:*
-    * *Official Metro Map & Live Schedules* 🔗 [Baku Metropoliten Official Site](http://baku-metro.gov.az/)
-    * *Live Bus Tracking & Digital Transit* 🔗 [AYNA Portal (Rəqəmsal İnkişaf və Nəqliyyat Nazirliyi)](https://mincom.gov.az/)
+    * *Official Metro Map & Live Schedules* 🔗 [Baku Metropoliten Official Site]
+    * *Live Bus Tracking & Digital Transit* 🔗 [AYNA Portal (Rəqəmsal İnkişaf və Nəqliyyat Nazirliyi)]
     * *Deep-Linked Navigation* 🔗 Integrated Google Maps transit routes directly focused on active coordinates.
 
 ### 3. 🏨 Accommodations & Shopping Hub
