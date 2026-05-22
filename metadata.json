@@ -1,0 +1,6 @@
+{
+  "name": "Travely",
+  "description": "An AI-powered travel planning and exploration assistant for tourists visiting Azerbaijan, providing multi-lingual support, customized itineraries, and city-level recommendations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
