@@ -17,8 +17,8 @@ Travely bridges the gap between chaotic general search engine results and expens
 ---
 
 ## 👥 Meet the Development Team
-Huseynali Mehdiyev
-Amin İsrafilov
+*Huseynali Mehdiyev,
+*Amin İsrafilov
 ---
 
 ## 🌍 Core Modules & System Architecture
